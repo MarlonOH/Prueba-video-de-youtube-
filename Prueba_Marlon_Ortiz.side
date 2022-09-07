@@ -1,0 +1,216 @@
+{
+  "id": "97367e6c-bdef-4da1-8f5e-fb85f72d3e53",
+  "version": "2.0",
+  "name": "Prueba_Marlon_Ortiz",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "ccec874c-7591-45b0-a5b2-ff91eb730339",
+    "name": "Encontrar video",
+    "commands": [{
+      "id": "f52c1390-68dd-43cc-964e-601fd28c3eac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b880fd02-d259-44d2-89c2-2ca83eb3b038",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c02fde3-9ee2-4b58-9b0a-d9c8a18f58e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=search-icon-legacy",
+      "targets": [
+        ["id=search-icon-legacy", "id"],
+        ["css=#search-icon-legacy", "css:finder"],
+        ["xpath=//button[@id='search-icon-legacy']", "xpath:attributes"],
+        ["xpath=//ytd-searchbox[@id='search']/button", "xpath:idRelative"],
+        ["xpath=//ytd-searchbox/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "582e40e9-81bb-4bfe-9331-8e9a180c731a",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30512638-1a1b-440b-9630-cca6b78e4eca",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Call of dutty mo"
+    }, {
+      "id": "987bee4c-f642-4ed7-ae52-41f9a730bfc3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "598b676d-420b-4c4b-b1d8-0ad21daa8e11",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "call of duty mobile "
+    }, {
+      "id": "368d7e3e-3a29-40ad-a720-37c46f3d8589",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "753dd808-d347-43f1-8933-0eb1bb19dd55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > #dismissible #thumbnail #img",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > #dismissible #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/j-MzSLZ0K74/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ0j8DhB3uppmCQLyz26SJZtHotw')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[55]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[28]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5be8aca8-58e8-4ea2-b8b7-15e6c5bac41f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > #dismissible #thumbnail #img",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > #dismissible #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/j-MzSLZ0K74/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ0j8DhB3uppmCQLyz26SJZtHotw')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[55]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[28]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e14a941-4b8f-40b9-ab82-b80e8f253f7f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=label-container",
+      "targets": [
+        ["id=label-container", "id"],
+        ["css=.style-scope:nth-child(1) > #label-container", "css:finder"],
+        ["xpath=//div[@id='label-container']", "xpath:attributes"],
+        ["xpath=//div[@id='hover-overlays']/ytd-thumbnail-overlay-toggle-button-renderer/div", "xpath:idRelative"],
+        ["xpath=//ytd-thumbnail-overlay-toggle-button-renderer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8a3810-d938-4f92-90df-ee97ff4bf344",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=label-container",
+      "targets": [
+        ["id=label-container", "id"],
+        ["css=.style-scope:nth-child(1) > #label-container", "css:finder"],
+        ["xpath=//div[@id='label-container']", "xpath:attributes"],
+        ["xpath=//div[@id='hover-overlays']/ytd-thumbnail-overlay-toggle-button-renderer/div", "xpath:idRelative"],
+        ["xpath=//ytd-thumbnail-overlay-toggle-button-renderer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8d521c-2fd2-4b72-90c4-1d12e6ac927c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissible #thumbnail #img",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissible #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/K0T7YyXB6Q4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0htBpgq5ejvRblEMuKAY7eOz0sg')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[57]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[29]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e762caa-108f-4619-9bc8-0d5484e4d6e8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissible #thumbnail #img",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissible #thumbnail #img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/K0T7YyXB6Q4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0htBpgq5ejvRblEMuKAY7eOz0sg')]", "xpath:img"],
+        ["xpath=(//img[@id='img'])[57]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[29]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd9c4fa1-ecb7-44b3-8cba-4f6d421af5f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytd-thumbnail > #thumbnail",
+      "targets": [
+        ["css=.ytd-thumbnail > #thumbnail", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/an_webp/K0T7YyXB6Q4/mqdefault_6s.webp?du=3000&sqp=CNa035gG&rs=AOn4CLDwCf5XiMopqhv33JktoFkQQ4DfNA')]", "xpath:img"],
+        ["xpath=//img[@id='thumbnail']", "xpath:attributes"],
+        ["xpath=//div[@id='mouseover-overlay']/ytd-moving-thumbnail-renderer/img", "xpath:idRelative"],
+        ["xpath=//ytd-moving-thumbnail-renderer/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0681d0b1-e6d4-4f8c-926a-cf3c7aa67e52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0f027ff4-8efb-4c42-b888-11d1bdb1211e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ccec874c-7591-45b0-a5b2-ff91eb730339"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
