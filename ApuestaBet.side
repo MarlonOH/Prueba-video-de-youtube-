@@ -1,0 +1,74 @@
+{
+  "id": "8825cc23-1d5a-4398-b51e-dbff10cd5b14",
+  "version": "2.0",
+  "name": "apuesta",
+  "url": "https://betplay.com.co",
+  "tests": [{
+    "id": "7bb71560-756f-4c9f-b5a7-3e8de805f61b",
+    "name": "pruebas",
+    "commands": [{
+      "id": "71e87ff7-39dd-4a89-80b8-c0057c94fb99",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71fe4a95-e2a2-4748-8bcc-58f42e654527",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f75441bb-dfcb-4a8a-899a-07e7ff482c80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-button",
+      "targets": [
+        ["css=.menu-button", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/button", "xpath:idRelative"],
+        ["xpath=//header/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce533f37-80d1-4a08-82af-cdef2807cf19",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Deportes > tspan",
+      "targets": [
+        ["css=#Deportes > tspan", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "802fefe2-6f42-41d0-acb5-977f798abcd9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=9",
+      "targets": [
+        ["index=9"]
+      ],
+      "value": ""
+    }, {
+      "id": "a49decc7-cbe0-413d-8ac3-57a156d79296",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2LrNf_NvtrBLjlIOAsdrUx:nth-child(3) .KambiBC-mod-outcome:nth-child(1) .KambiWidget-outcome__label-wrapper",
+      "targets": [
+        ["css=.\\_2LrNf_NvtrBLjlIOAsdrUx:nth-child(3) .KambiBC-mod-outcome:nth-child(1) .KambiWidget-outcome__label-wrapper", "css:finder"],
+        ["xpath=//div[3]/div/div[3]/button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9192f1a7-09e9-42b1-b34c-08753129453b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7bb71560-756f-4c9f-b5a7-3e8de805f61b"]
+  }],
+  "urls": ["https://betplay.com.co/"],
+  "plugins": []
+}
